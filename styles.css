@@ -19,7 +19,7 @@ nav {
     font-size: 17px;
     width: 25%;
 }
-h1 {
+.title {
     padding: 100px;
     color: white;
     text-align: center;
@@ -31,4 +31,22 @@ label {
 
 legend {
     color: aqua;
+}
+
+.dates {
+    color: black;
+    padding: 20px;
+    font-size: 15px;
+}
+
+#box {
+    padding-left: 50%;
+}
+.textbox {
+    border: 2px solid black;
+    width: 1000px;
+    height: 100px;
+
+.left {
+    text-align: left;
 }

@@ -10,25 +10,58 @@
     <header>
       <img src="assets/band_logo.jpg" alt="logo" width="80" height="80" class="logo"/>
       <nav class="navbar">
+        <a href="#">Home</a>
         <a href="#">About</a>
-        <a href="#">Locations</a>
         <a href="#">FAQs</a>
       </nav>
+      <div class="title">
       <h1>Samurai</h1>
+      <p>The rock and roll of the century.</p>
+      </div>
     </header>
     <main>
-        <form action="">
+        <form action="" id="box">
             <fieldset>
-                <legend>Purchase Tickets</legend>
+                <legend>Personal Information</legend>
+                <div class="left">
                 <label for="FirstName">First Name:</label>
                 <input type="text" id="FirstName" required>
 
                 <label for="LastName">Last Name:</label>
                 <input type="text" id="LastName" required>
 
+                <label for="DOB">Date of Birth:</label>
+                <input type="date" id="DOB" required>
+                </div>
+                <div class="left">
+                <label for="Phone">Phone Number:</label>
+                <input type="tel" id="Phone">
+
                 <label for="Email">Email:</label>
                 <input type="email" id="Email" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <label for="info">How did you hear about this event?</label>
+                <select name="info" id="info" required>
+                    <option value="">--Select Option--</option>
+                    <option value="">Social Media</option>
+                    <option value="">News Paper</option>
+                    <option value="">Search Engine</option>
+                    <option value="">Other</option>
+                </select>
+                <fieldset>
+                    <legend>Ticket Type</legend>
+                <input type="radio" id="general" name="ticket" checked>
+                <label for="General">General Admission</label>
 
+                <input type="radio" id="VIP" name="ticket" required>
+                <label for="VIP">VIP</label>
+
+                <input type="radio" id="student" name="ticket" required>
+                <label for="Student">Student</label>
+                </fieldset>
+                
                 <label for=City">City</label>
                 <select name="City" id="City" required>
                     <option value="">--Select City--</option>
@@ -43,9 +76,14 @@
                     <option value="">Dallas, Texas</option>
                     <option value="">San Francisco, California</option>
                 </select>
+
+                <input type="radio" name="subscription">
+                <label for="subscritpion">Subscribe to our Newsletter!</label>
             </fieldset>
+
+            <label for="Comments">Leave a Comment</label><br>
+            <input type="text" class="textbox">
         </form>
-        <button>Check Dates</button>
     </main>
 
   </body>
