@@ -4,45 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Event Sign Up</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="half-page-bg">
       <img src="assets/band_logo.jpg" alt="logo" width="80" height="80" class="logo"/>
       <nav class="navbar">
+        <a href="#">FAQs</a>
         <a href="#">Home</a>
         <a href="#">About</a>
-        <a href="#">FAQs</a>
       </nav>
       <div class="title">
       <h1>Samurai</h1>
       <p>The rock and roll of the century.</p>
       </div>
     </header>
-    <main>
-        <form action="" id="box">
+    <main class="other-half">
+        <div class="container">
+        <form action="" class="flex">
             <fieldset>
                 <legend>Personal Information</legend>
-                <div class="left">
-                <label for="FirstName">First Name:</label>
-                <input type="text" id="FirstName" required>
+                <div class="container">
+                <div class="flex 1">
+                <label for="FirstName">First Name:*</label><br>
+                <input type="text" id="FirstName" required><br>
 
-                <label for="LastName">Last Name:</label>
-                <input type="text" id="LastName" required>
+                <label for="LastName">Last Name:*</label><br>
+                <input type="text" id="LastName" required><br>
 
-                <label for="DOB">Date of Birth:</label>
-                <input type="date" id="DOB" required>
+                <label for="DOB">Date of Birth:*</label><br>
+                <input type="date" id="DOB" required><br>
                 </div>
-                <div class="left">
-                <label for="Phone">Phone Number:</label>
-                <input type="tel" id="Phone">
+                <div class="flex 2">
+                <label for="Phone">Phone Number:</label><br>
+                <input type="tel" id="Phone"><br>
 
-                <label for="Email">Email:</label>
+                <label for="Email">Email:*</label><br>
                 <input type="email" id="Email" required>
                 </div>
+            </div>
             </fieldset>
             <fieldset>
-                <label for="info">How did you hear about this event?</label>
+                <label for="info">How did you hear about this event?*</label>
                 <select name="info" id="info" required>
                     <option value="">--Select Option--</option>
                     <option value="">Social Media</option>
@@ -83,8 +86,66 @@
 
             <label for="Comments">Leave a Comment</label><br>
             <input type="text" class="textbox">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
         </form>
+        <table bgcolor="lightgray" class="flex">
+            <caption>September 2025 Tour</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Sunday</th>
+                    <th scope="col">Monday</th>
+                    <th scope="col">Tuesday</th>
+                    <th scope="col">Wednesday</th>
+                    <th scope="col">Thursday</th>
+                    <th scope="col">Friday</th>
+                    <th scope="col">Saturday</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5 <br><p></p></td>
+                        <td>6 <br><p>Ny, Ny</p></td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                    </tr>
+                    <tr>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
+        </div>
     </main>
-
-  </body>
 </html>

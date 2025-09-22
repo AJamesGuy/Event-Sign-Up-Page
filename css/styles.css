@@ -1,0 +1,104 @@
+* {
+    font: arial;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.half-page-bg {
+    background-image: url(../assets/band_background.jpg);
+    background-size: cover;
+    height: 50vh;
+}
+
+.other-half {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:  slategrey;
+}
+
+.navbar a:hover {
+    color: blue;
+}
+
+nav {
+    display: inline;
+    margin-left: 100px;
+}
+
+.navbar a{
+    float: right;
+    padding: 12px;
+    color: lightgray;
+    font-size: 17px;
+    margin: auto;
+}
+.title {
+    padding: 100px;
+    color: white;
+    text-align: center;
+}
+
+label {
+    color: black;
+}
+
+legend {
+    color: red;
+}
+
+.dates {
+    color: black;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.float-container {
+    padding: 20px;
+}
+
+#box {
+    float: right;
+    width: 50%;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.textbox {
+    border: 2px solid black;
+    width: 1000px;
+    height: 100px;
+}
+.flex {
+    flex: 1;
+}
+
+.flex:first-child{
+    margin-right: 20px;
+}
+fieldset {
+    border: 3px solid black;
+}
+
+.container {
+    display: flex;
+}
+
+td {
+    padding: 10px;
+}
+
+table {
+    color: black;
+}
+
+caption {
+    color: black;
+    background-color: aliceblue;
+    font-size: 50px;
+}
