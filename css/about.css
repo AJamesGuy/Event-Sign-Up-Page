@@ -1,6 +1,7 @@
 * {
     font: arial;
     background-color: black;
+    color: whitesmoke;
 }
 
 .navbar a:hover {
@@ -12,12 +13,20 @@ nav {
     margin-left: 100px;
 }
 
-.title {
-    padding: 100px;
-    color: white;
-    text-align: center;
+.navbar a:hover {
+    color: blue;
 }
 
-h1, p {
-    color: whitesmoke;
+.navbar a{
+    float: right;
+    padding: 12px;
+    color: lightgray;
+    font-size: 17px;
+    margin: auto;
+}
+
+.title {
+    padding: 100px;
+    color: black;
+    text-align: center;
 }

@@ -8,9 +8,9 @@
   </head>
   <body>
     <header class="half-page-bg">
-      <img src="assets/band_logo.jpg" alt="logo" width="80" height="80" class="logo"/>
+      <img src="images/band_logo.jpg" alt="logo" width="80" height="80" class="logo"/>
       <nav class="navbar">
-        <a href="#">FAQs</a>
+        <a href="#faqs">FAQs</a>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
       </nav>
@@ -43,7 +43,7 @@
                 <input type="email" id="Email" required>
                 </div>
             </div>
-            </fieldset>
+            </fieldset> <br>
             <fieldset>
                 <label for="info">How did you hear about this event?*</label>
                 <select name="info" id="info" required>
@@ -53,6 +53,7 @@
                     <option value="">Search Engine</option>
                     <option value="">Other</option>
                 </select>
+            </fieldset> <br>
                 <fieldset>
                     <legend>Ticket Type</legend>
                 <input type="radio" id="general" name="ticket" checked>
@@ -63,31 +64,34 @@
 
                 <input type="radio" id="student" name="ticket" required>
                 <label for="Student">Student</label>
-                </fieldset>
-                
-                <label for=City">Select an Event</label>
+                </fieldset> <br>
+                <fieldset>
+                <label for=City">Select Event</label>
                 <select name="City" id="City" required>
                     <option value="">--Select City--</option>
-                    <option value="">New York City, NY</option>
-                    <option value="">Loa Angeles, California</option>
-                    <option value="">Chicago, Illinois</option>
-                    <option value="">Phoenix, Arizona</option>
-                    <option value="">Philadelphia, Pennsylvania</option>
-                    <option value="">San Antonio, Texas</option>
-                    <option value="">San Diego, California</option>
-                    <option value="">Dallas, Texas</option>
-                    <option value="">San Francisco, California</option>
+                    <option value="">New York City, NY - Sept. 7th</option>
+                    <option value="">Loa Angeles, California - Sept. 5th</option>
+                    <option value="">Chicago, Illinois - Sept. 14th</option>
+                    <option value="">Phoenix, Arizona - Sept. 19th</option>
+                    <option value="">Philadelphia, Pennsylvania - Sept. 26th</option>
+                    <option value="">San Antonio, Texas - Sept. 13th</option>
+                    <option value="">San Diego, California - Sept. 22nd</option>
+                    <option value="">Dallas, Texas - Sept. 10th</option>
+                    <option value="">San Francisco, California - Sept. 20th</option>
                 </select>
-
-                <input type="radio" name="subscription">
-                <label for="subscritpion">Subscribe to our Newsletter!</label>
-            </fieldset>
-
+                </fieldset> <br>
             <label for="Comments">Leave a Comment</label><br>
             <input type="text" class="textbox">
-            <button type="submit">Submit</button>
-            <button type="reset">Reset</button>
+            <div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button> <br> <br>
+            </div>
+            <div>
+                <input type="radio" name="subscription">
+                <label for="subscritpion">Subscribe to our Newsletter!</label>
+            </div>
         </form>
+        
         <table bgcolor="lightgray" class="flex">
             <caption>September 2025 Tour</caption>
             <thead>
@@ -146,8 +150,17 @@
             </thead>
         </table>
         </div>
+        <h2>FAQs</h2>
+        <ul class="faqs" id="faqs">
+            <li>What time does each event start?</li>
+            <p>Events will go from 9pm to 3am in the cities' local time zone.</p>
+            <li>When does admission begin?</li>
+            <p>General and student admission will begin 1 hour prior to the event. VIP admissions will begin 2 hours before the event.</p>
+            <li>What am I allowed to bring?</li>
+            <p>No alcohol or drugs will be allowed on event grounds. Water and fans are recommended.</p>
+        </ul>
     </main>
     <footer>
-        <p>&copy;</p>
+        <p class="footer-text">&copy; Contact Us: <a href="#">info@samurai.com</a></p>
     </footer>
 </html>

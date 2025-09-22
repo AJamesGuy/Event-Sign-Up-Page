@@ -9,7 +9,7 @@ html, body {
 }
 
 .half-page-bg {
-    background-image: url(../assets/band_background.jpg);
+    background-image: url(../images/band_background.jpg);
     background-size: cover;
     height: 50vh;
 }
@@ -71,8 +71,9 @@ legend {
 
 .textbox {
     border: 2px solid black;
-    width: 1000px;
-    height: 100px;
+    width: 90%;
+    height: 80px;
+    padding: 5px;
 }
 .flex {
     flex: 1;
@@ -101,4 +102,17 @@ caption {
     color: black;
     background-color: aliceblue;
     font-size: 50px;
+}
+
+footer {
+    background-color: black;
+}
+
+.footer-text {
+    color: white;
+    margin: 0px;
+}
+
+.faqs {
+    text-align: left;
 }
