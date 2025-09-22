@@ -1,0 +1,23 @@
+* {
+    font: arial;
+    background-color: black;
+}
+
+.navbar a:hover {
+    color: blue;
+}
+
+nav {
+    display: inline;
+    margin-left: 100px;
+}
+
+.title {
+    padding: 100px;
+    color: white;
+    text-align: center;
+}
+
+h1, p {
+    color: whitesmoke;
+}
