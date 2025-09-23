@@ -8,6 +8,9 @@ html, body {
     padding: 0;
 }
 
+h1 {
+    color: whitesmoke;
+}
 .half-page-bg {
     background-image: url(../images/band_background.jpg);
     background-size: cover;
@@ -27,8 +30,12 @@ html, body {
 }
 
 nav {
-    display: inline;
-    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: rgba(1, 9, 19, 0.644);
 }
 
 .navbar a{
@@ -75,7 +82,7 @@ legend {
     height: 80px;
     padding: 5px;
 }
-.flex {
+.calender {
     flex: 1;
 }
 
