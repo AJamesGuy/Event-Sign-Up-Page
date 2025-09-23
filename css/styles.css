@@ -84,6 +84,11 @@ legend {
 }
 .calender {
     flex: 1;
+    position: relative;
+}
+
+.flex {
+    flex: 1;
 }
 
 .flex:first-child{
