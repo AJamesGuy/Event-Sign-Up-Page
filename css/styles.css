@@ -1,22 +1,24 @@
+/* Choose font style and reset page margin and padding */
 * {
-    font: arial;
+    font-style: arial;
+    margin: 0;
+    padding: 0;
 }
 
 html, body {
     height: 100%;
-    margin: 0;
-    padding: 0;
 }
 
 h1 {
     color: whitesmoke;
 }
+/* First half of page background image and view height */
 .half-page-bg {
     background-image: url(../images/band_background.jpg);
     background-size: cover;
     height: 50vh;
 }
-
+/* Second half of page with slategray background color */
 .other-half {
     height: 100%;
     justify-content: center;
@@ -29,6 +31,7 @@ h1 {
     color: blue;
 }
 
+/* Set nav to sticky position and adjust nav link spacing */
 nav {
     display: flex;
     justify-content: space-around;
@@ -45,28 +48,21 @@ nav {
     font-size: 17px;
     margin: auto;
 }
+
+/* title class for beginning of page */
 .title {
     padding: 100px;
     color: white;
     text-align: center;
 }
 
+/* set label and legend colors */
 label {
     color: black;
 }
 
 legend {
     color: red;
-}
-
-.dates {
-    color: black;
-    padding: 20px;
-    font-size: 15px;
-}
-
-.float-container {
-    padding: 20px;
 }
 
 #box {
@@ -76,17 +72,21 @@ legend {
     border: 2px solid black;
 }
 
+/* class for textbox dimensions and padding */
 .textbox {
     border: 2px solid black;
     width: 90%;
     height: 80px;
     padding: 5px;
 }
+
+/* calender class for positioning */
 .calender {
     flex: 1;
     position: relative;
 }
 
+/* flex classes for positioning form items */
 .flex {
     flex: 1;
 }
@@ -94,14 +94,18 @@ legend {
 .flex:first-child{
     margin-right: 20px;
 }
+
+/* set border to categorize form */
 fieldset {
     border: 3px solid black;
 }
 
+/* container used in divs for flex display */
 .container {
     display: flex;
 }
 
+/* padding, text, and color changes for html tags */
 td {
     padding: 10px;
 }
@@ -120,11 +124,13 @@ footer {
     background-color: black;
 }
 
+/* footer class */
 .footer-text {
     color: white;
     margin: 0px;
 }
 
+/* class for FAQs section */
 .faqs {
     text-align: left;
 }

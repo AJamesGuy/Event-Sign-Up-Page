@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <!-- First half with background image -->
     <header class="half-page-bg">
       <nav class="navbar">
       <img src="images/band_logo.jpg" alt="logo" width="80" height="80" class="logo"/>
@@ -14,15 +15,18 @@
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
       </nav>
+      <!-- Title for Band -->
       <div class="title">
       <h1>Samurai</h1>
       <p>The rock and roll of the century.</p>
       </div>
     </header>
+    <!-- Second half with form and calender -->
     <main class="other-half">
         <div class="container">
         <form action="" id="box">
             <fieldset>
+                <!-- Personal Information form section -->
                 <legend>Personal Information</legend>
                 <div class="container">
                 <div class="flex 1">
@@ -45,6 +49,7 @@
             </div>
             </fieldset> <br>
             <fieldset>
+                <!-- New form section -->
                 <label for="info">How did you hear about this event?*</label>
                 <select name="info" id="info" required>
                     <option value="">--Select Option--</option>
@@ -54,6 +59,7 @@
                     <option value="">Other</option>
                 </select>
             </fieldset> <br>
+            <!-- New form section - Ticket Type -->
                 <fieldset>
                     <legend>Ticket Type</legend>
                 <input type="radio" id="general" name="ticket" checked>
@@ -66,6 +72,7 @@
                 <label for="Student">Student</label>
                 </fieldset> <br>
                 <fieldset>
+                    <!-- Dropdown with city and date of events -->
                 <label for=City">Select Event</label>
                 <select name="City" id="City" required>
                     <option value="">--Select City--</option>
@@ -80,18 +87,20 @@
                     <option value="">San Francisco, California - Sept. 20th</option>
                 </select>
                 </fieldset> <br>
+                <!-- Comment Section -->
             <label for="Comments">Leave a Comment</label><br>
             <input type="text" class="textbox">
             <div>
                 <button type="submit">Submit</button>
                 <button type="reset">Reset</button> <br> <br>
             </div>
+            <!-- div for newsletter subscription -->
             <div>
                 <input type="radio" name="subscription">
                 <label for="subscritpion">Subscribe to our Newsletter!</label>
             </div>
         </form>
-        
+        <!-- Beginning of Calender -->
         <table bgcolor="lightgray" class="calender">
             <caption>September 2025 Tour</caption>
             <thead>
@@ -150,6 +159,7 @@
             </thead>
         </table>
         </div>
+        <!-- FAQs section -->
         <h2>FAQs</h2>
         <ul class="faqs" id="faqs">
             <li>What time does each event start?</li>
@@ -160,6 +170,7 @@
             <p>No alcohol or drugs will be allowed on event grounds. Water and fans are recommended.</p>
         </ul>
     </main>
+    <!-- footer with copyright and contact email -->
     <footer>
         <p class="footer-text">&copy; Contact Us: <a href="#">info@samurai.com</a></p>
     </footer>
