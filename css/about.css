@@ -33,3 +33,19 @@ nav {
     color: black;
     text-align: center;
 }
+
+.locations {
+    margin: auto;
+}
+
+.container {
+    display: flex;
+}
+
+.band {
+    float: right;
+}
+
+h2 {
+    text-align: left;
+}
