@@ -24,7 +24,8 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color:  slategrey;
+   background: #47474a;
+    background: linear-gradient(90deg, rgba(71, 71, 74, 1) 0%, rgba(48, 48, 92, 0.99) 71%, rgba(122, 33, 33, 1) 100%);
 }
 
 .navbar a:hover {
@@ -133,4 +134,5 @@ footer {
 /* class for FAQs section */
 .faqs {
     text-align: center;
+    color: 
 }
