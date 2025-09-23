@@ -1,20 +1,23 @@
+/* general page setup */
 * {
     font: arial;
     background-color: black;
     color: whitesmoke;
+    padding: 0;
+    margin: 0;
 }
+
+/* nav layout and colors */
 
 .navbar a:hover {
     color: blue;
 }
-
 nav {
-    display: inline;
-    margin-left: 100px;
-}
-
-.navbar a:hover {
-    color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
 }
 
 .navbar a{
@@ -24,7 +27,7 @@ nav {
     font-size: 17px;
     margin: auto;
 }
-
+/* title class */
 .title {
     padding: 100px;
     color: black;
